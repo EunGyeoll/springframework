@@ -12,8 +12,9 @@ public class HomeController {
 	public String index() {
 		log.info("index() 실행1");
 		log.info("index() 실행2");
-		
+		log.info("index() 실행3");
 		log.info("index() 실행4");
+		
 		return "home";
 	}
 	
