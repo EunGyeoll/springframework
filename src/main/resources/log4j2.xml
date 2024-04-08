@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version= "1.0" encoding="UTF-8"?>
 <Configuration>
 
   <Appenders>
@@ -8,7 +8,7 @@
   </Appenders>
   
   <Loggers>
-    <Logger name="com.mycompany.springframework" level="info" additivity="false">
+    <Logger name="com.mycompany.springframework" level="info" additivity="false"> 
       <AppenderRef ref="Out"/>
     </Logger>
     <Root level="error">
