@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 @Controller
 @RequestMapping("/")
 public class HomeController {
-	@RequestMapping("/")
+	@RequestMapping("")
 	public String index() {
 		log.info("index() 실행1");
 		log.info("index() 실행2");
