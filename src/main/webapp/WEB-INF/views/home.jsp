@@ -36,7 +36,13 @@
 				<!-- ########################## -->
 			</div>
 
+<<<<<<< HEAD
 		</div>
 	</div>
+=======
+	<h6>Welcome!</h6>
+	<hr />
+	<p>test</p>
+>>>>>>> branch 'master' of https://github.com/EunGyeoll/springframework.git
 </body>
 </html>

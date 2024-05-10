@@ -36,7 +36,7 @@ public class Ch17Controller {
     return "ch17/admin/page";
   }
   
-  @Secured("ROLE_MANAGER")
+  @Secured({"ROLE_MANAGER"})
   @GetMapping("/manager/page")
   public String managerPage() {
     return "ch17/manager/page";
